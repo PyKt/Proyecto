@@ -1,5 +1,17 @@
-CREATE DATABASE IF NOT EXISTS users_db;
-use users_db;
+CREATE DATABASE IF NOT EXISTS curso_python;
+use curso_python;
+
+CREATE TABLE usuarios(
+    id  int(25) auto_increment not null,
+    nombre varchar(100),
+    apellidos varchar(100),
+    email varchar(100) not null,
+    password varchar(100) not null,
+    fecha   date not null,
+    CONSTRAINT pk_usuarios PRIMARY KEY (id),
+    CONSTRAINT uq_mail UNIQUE(email)
+)ENGINE=InnoDb;
+
 
 CREATE TABLE notas(
     id  int(25) auto_increment not null,
