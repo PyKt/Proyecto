@@ -1,5 +1,6 @@
 import mysql.connector
 import datetime
+
 database = mysql.connector.connect(
     host="localhost",
     user="alberto",
@@ -21,7 +22,7 @@ class Usuarios:
 
     def registrar(self):
         fecha = datetime.datetime.now()
-        sql = "INSERT INTO users_db VALUES(null, %s, %s, %s, %s, %s,)"
+        sql = "INSERT INTO users_db VALUES(null, %s, %s, %s, %s, %s)"
         usuario = (self.nombre, self.apellidos, self.apellidos, fecha)
 
         cursor.execute(sql, usuario)
