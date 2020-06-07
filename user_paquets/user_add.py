@@ -1,3 +1,4 @@
+import hashlib
 import mysql.connector
 import datetime
 
@@ -21,10 +22,32 @@ class Usuarios:
         self.password = password
 
     def registrar(self):
-        fecha = datetime.datetime.now()
-        #sql = "INSERT INTO users_db VALUES(null, %s, %s, %s, %s, %s)"
-        #usuario = (self.nombre, self.apellidos, self.apellidos, self.password, fecha)
-        cursor.execute("INSERT INTO usuarios VALUES(null, %s, %s, %s, %s, %s)",(self.nombre, self.apellidos, self.email, self.password, fecha))
-        database.commit()
 
-        return [cursor.rowcount, self]
+        passwd_encryp = hashlib.sha384()
+        passwd_encryp.update(self.password.encode('utf8'))
+
+        fecha = datetime.datetime.now()
+
+        try:
+            cursor.execute("INSERT INTO usuarios VALUES(null, %s, %s, %s, %s, %s)",
+                           (self.nombre, self.apellidos, self.email, passwd_encryp.hexdigest(), fecha))
+            database.commit()
+            print("Cuentra creada exitosamente.")
+
+
+        except mysql.connector.Error:
+            print(f"Error en email: {self.email}")
+
+        return cursor
+
+    def login(self):
+
+        sql = "SELECT * FROM usuarios WHERE email = %s AND PASSWORD = %s"
+
+        passwd_encryp = hashlib.sha384()
+        passwd_encryp.update(self.password.encode('utf8'))
+        usuario = (self.email, passwd_encryp.hexdigest())
+
+        cursor.execute(sql, usuario)
+        result = cursor.fetchone()
+        return result
