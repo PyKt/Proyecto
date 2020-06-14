@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e76e1bea-e1e3-4bbb-afa9-c2e960c4b5aa" name="Default Changelist" comment="update">
+    <list default="true" id="40d7e542-7b8b-483b-9c3e-16fc8a3f619e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/.ropeproject/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_paquets/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_paquets/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_paquets/user_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_paquets/user_add.py" afterDir="false" />
     </list>
@@ -24,8 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ckjBXGUwOJThagcvXJYCYwgUAD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1d9vGFTPAXr7TYuXx6yPJC5PK6K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,32 +25,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Proyecto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_paquets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_paquets/actions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proyecto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +49,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="user_add" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="notes_actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proyecto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_paquets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notes_pakets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_paquets/user_add.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes_pakets/notes_actions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,8 +73,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.actions" />
-        <item itemvalue="Python.user_add" />
+        <item itemvalue="Python.notes_actions" />
       </list>
     </recent_temporary>
   </component>
@@ -114,65 +82,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e76e1bea-e1e3-4bbb-afa9-c2e960c4b5aa" name="Default Changelist" comment="" />
-      <created>1591079349530</created>
+      <changelist id="40d7e542-7b8b-483b-9c3e-16fc8a3f619e" name="Default Changelist" comment="" />
+      <created>1591850025684</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591079349530</updated>
+      <updated>1591850025684</updated>
     </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1591315711871</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1591315711871</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update">
-      <created>1591315734677</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591315734677</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
   <component name="WindowStateProjectService">
-    <state width="1894" height="473" key="GridCell.Tab.0.bottom" timestamp="1591420509111">
+    <state width="1896" height="342" key="GridCell.Tab.0.bottom" timestamp="1591943760873">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1894" height="473" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1591420509111" />
-    <state width="1894" height="473" key="GridCell.Tab.0.center" timestamp="1591420509110">
+    <state width="1896" height="342" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760873" />
+    <state width="1896" height="342" key="GridCell.Tab.0.center" timestamp="1591943760872">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1894" height="473" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1591420509110" />
-    <state width="1894" height="473" key="GridCell.Tab.0.left" timestamp="1591420509109">
+    <state width="1896" height="342" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760872" />
+    <state width="1896" height="342" key="GridCell.Tab.0.left" timestamp="1591943760872">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1894" height="473" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1591420509109" />
-    <state width="1894" height="473" key="GridCell.Tab.0.right" timestamp="1591420509111">
+    <state width="1896" height="342" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760872" />
+    <state width="1896" height="342" key="GridCell.Tab.0.right" timestamp="1591943760873">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1894" height="473" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1591420509111" />
-    <state x="625" y="140" width="669" height="825" key="find.popup" timestamp="1591420444463">
+    <state width="1896" height="342" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760873" />
+    <state width="1896" height="342" key="GridCell.Tab.1.bottom" timestamp="1591943760875">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="625" y="140" width="669" height="825" key="find.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1591420444463" />
+    <state width="1896" height="342" key="GridCell.Tab.1.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760875" />
+    <state width="1896" height="342" key="GridCell.Tab.1.center" timestamp="1591943760875">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1896" height="342" key="GridCell.Tab.1.center/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760875" />
+    <state width="1896" height="342" key="GridCell.Tab.1.left" timestamp="1591943760874">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1896" height="342" key="GridCell.Tab.1.left/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760874" />
+    <state width="1896" height="342" key="GridCell.Tab.1.right" timestamp="1591943760875">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1896" height="342" key="GridCell.Tab.1.right/0.25.1920.1055@0.25.1920.1055" timestamp="1591943760875" />
+    <state x="491" y="254" width="927" height="598" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591943213176">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="491" y="254" width="927" height="598" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1920.1055@0.25.1920.1055" timestamp="1591943213176" />
   </component>
 </project>

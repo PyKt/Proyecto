@@ -1,16 +1,13 @@
 import hashlib
-import mysql.connector
 import datetime
 
-database = mysql.connector.connect(
-    host='localhost',
-    user='alberto',
-    passwd='fava',
-    database='curso_python',
-    port=3306
-)
+import mysql
 
-cursor = database.cursor(buffered=True)
+import user_paquets.db_connector as conexion
+
+db_conections = conexion.connector()
+database = db_conections[0]
+cursor = db_conections[1]
 
 
 class Usuarios:
@@ -36,6 +33,7 @@ class Usuarios:
 
 
         except mysql.connector.Error:
+
             print(f"Error en email: {self.email}")
 
         return cursor

@@ -1,4 +1,5 @@
 import user_paquets.user_add as modelo
+import notes_pakets.notes_actions
 
 
 class Acciones:
@@ -32,7 +33,10 @@ class Acciones:
             print("Usuario o passwd incorrectos.")
 
     def proximasAcciones(self, usuario):
-        print("""
+
+        noteCreate = notes_pakets.notes_actions.Action()
+
+        print(""""
         Seleccione la opcion:
         
         * Crear notas (1)
@@ -41,26 +45,25 @@ class Acciones:
         * Salir (0)
         """)
 
-        opciones = True
+        try:
+            opciones = int(input("SELECCIONE LA OPCION: "))
 
-        while opciones:
+        except:
 
-            try:
-                opciones = int(input("SELECCIONE LA OPCION: "))
+            input("Solo puedes seleccionar numeros.\nPreciones ENTER para continuar")
 
-            except:
-                input("Solo puedes seleccionar numeros.\nPreciones ENTER para continuar")
+        if opciones == 1:
+            noteCreate.new_note(usuario)            
+            self.proximasAcciones(usuario)
 
 
-            if opciones == 1:
-                print("DOCUMENTO SIN TITULO\n")
+        elif opciones == 2:
+            noteCreate.mostrar(usuario)
+            self.proximasAcciones(usuario)
 
-            elif opciones == 2:
-                print("DOCUMENTO ARCHIVADO\n")
+        elif opciones == 3:
+            noteCreate.borrar(usuario)
+            self.proximasAcciones(usuario)
 
-            elif opciones == 3:
-                print("DOCUMENTO A ELIMINAR\n")
-
-            elif opciones == 0:
-                exit(f"Saliendo...{usuario[1]}")
-
+        elif opciones == 0:
+            exit(f"Saliendo...{usuario[1]}")
